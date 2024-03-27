@@ -16,5 +16,88 @@ namespace WebBanSach.Controllers
             IEnumerable<Category> objCategoryList = _db.categories.ToList();
             return View(objCategoryList);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category obj)
+        {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("Customer", "The Name must not same displayorder");
+            }
+            if (ModelState.IsValid)
+            {
+                _db.categories.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+        }
+        public IActionResult Edit(int? id)
+        {
+            if (id == null || id == 0) {
+                return NotFound();
+            }
+            var categoryFromDb = _db.categories.Find(id);
+            //var categoryFromDbFirst = _db.categories.FirstOrDefault( u=>u.Id==id);
+            //var categoryFromDbSingle = _db.categories.SingleOrDefault(u => u.Id == id);
+            if (categoryFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(categoryFromDb);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Category obj)
+        {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("name", "The Name must not same displayorder");
+            }
+            if (ModelState.IsValid)
+            {
+                _db.categories.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("index");
+            }
+            return View(obj);
+        }
+
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var categoryFromDb = _db.categories.Find(id);
+            //var categoryFromDbFirst = _db.categories.FirstOrDefault( u=>u.Id==id);
+            //var categoryFromDbSingle = _db.categories.SingleOrDefault(u => u.Id == id);
+            if (categoryFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(categoryFromDb);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            var obj = _db.categories.Find(id);
+            if (obj == null)
+            {
+
+            }
+            else
+            {
+                _db.categories.Remove(obj);
+                _db.SaveChanges();
+                return RedirectToAction("index");
+            }
+            return View(obj);
+        }
     }
 }

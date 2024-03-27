@@ -440,3 +440,4 @@ E:\University\DTU\System Integration Practices\GroupProject\WebBanSach\WebBanSac
 E:\University\DTU\System Integration Practices\GroupProject\WebBanSach\WebBanSach\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 E:\University\DTU\System Integration Practices\GroupProject\WebBanSach\WebBanSach\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 E:\University\DTU\System Integration Practices\GroupProject\WebBanSach\WebBanSach\obj\Debug\net8.0\WebBanSach.MvcApplicationPartsAssemblyInfo.cs
+E:\University\DTU\System Integration Practices\GroupProject\WebBanSach\WebBanSach\obj\Debug\net8.0\WebBanSach.sourcelink.json

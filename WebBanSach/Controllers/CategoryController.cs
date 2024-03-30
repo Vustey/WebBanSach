@@ -32,6 +32,7 @@ namespace WebBanSach.Controllers
             {
                 _db.categories.Add(obj);
                 _db.SaveChanges();
+                TempData["Success"] = "Category Create Sucessfull";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -62,6 +63,7 @@ namespace WebBanSach.Controllers
             {
                 _db.categories.Update(obj);
                 _db.SaveChanges();
+                TempData["Success"] = "Category Update Sucessfull";
                 return RedirectToAction("index");
             }
             return View(obj);
@@ -89,12 +91,13 @@ namespace WebBanSach.Controllers
             var obj = _db.categories.Find(id);
             if (obj == null)
             {
-
+                return NotFound();
             }
             else
             {
                 _db.categories.Remove(obj);
                 _db.SaveChanges();
+                TempData["Success"] = "Category Delete Sucessfull";
                 return RedirectToAction("index");
             }
             return View(obj);

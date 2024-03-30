@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|e:\\university\\dtu\\system integration practices\\groupproject\\webbansach\\webbansach\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|e:\\university\\dtu\\system integration practices\\groupproject\\webbansach\\webbansach\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|e:\\university\\dtu\\system integration practices\\groupproject\\webbansach\\webbansach\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|e:\\university\\dtu\\system integration practices\\groupproject\\webbansach\\webbansach\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|e:\\university\\dtu\\system integration practices\\groupproject\\webbansach\\webbansach\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB465E79-E1EF-43FA-8970-23FF67EFE041}|WebBanSach\\WebBanSach.csproj|solutionrelative:webbansach\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,72 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebBanSach\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "WebBanSach\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T18:15:47.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Views\\Category\\Delete.cshtml",
-              "RelativeDocumentMoniker": "WebBanSach\\Views\\Category\\Delete.cshtml",
-              "ToolTip": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Views\\Category\\Delete.cshtml",
-              "RelativeToolTip": "WebBanSach\\Views\\Category\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T18:14:54.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebBanSach\\Views\\Category\\Index.cshtml",
-              "ToolTip": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "WebBanSach\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T17:30:17.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebBanSach\\Views\\Category\\Create.cshtml",
-              "ToolTip": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "WebBanSach\\Views\\Category\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-27T16:22:59.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "WebBanSach\\Controllers\\CategoryController.cs",
-              "ToolTip": "E:\\University\\DTU\\System Integration Practices\\GroupProject\\WebBanSach\\WebBanSach\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "WebBanSach\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAQwFYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:57:23.426Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             }
           ]
         }
